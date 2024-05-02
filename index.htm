@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ <title>Card Memory Game</title>
+</head>
+<body>
+  <h1 class="text-center my-4" >Card Memory Game</h1>
+  <div class="timeDisplay text-center my-4">
+    <span id="time">Time: 0</span>
+    <span id="clickCount">Attemps: 0</span>
+  </div>
+
+  <div class="cardContainer">
+    <div class="cardList">
+      <div class="card" id="card9" name="music-card"><img src="icons/music-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card10"name="adventure-card"><img src="icons/adventure-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card11"name="game-card"><img src="icons/casual-placement-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card12"name="chess-card"><img src="icons/chess-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card13"name="sword-card"><img src="icons/fighting-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card14"name="alien-card"><img src="icons/other-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card15"name="fist-card"><img src="icons/action-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card16"name="bulsseye-card"><img src="icons/shooting-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card1" name="music-card"><img src="icons/music-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card2" name="adventure-card"><img src="icons/adventure-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card3" name="game-card"><img src="icons/casual-placement-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card4" name="chess-card"><img src="icons/chess-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card5" name="sword-card"><img src="icons/fighting-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card6" name="alien-card"><img src="icons/other-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card7" name="fist-card"><img src="icons/action-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+      <div class="card" id="card8" name="bulsseye-card"><img src="icons/shooting-svgrepo-com.svg" class="icon" alt="SVG Image"></div>
+    </div>
+ </div>
+
+ <div id="endGameBox" class="text-center mt-4" style="display: none;">
+  <div>Time's Up!</div>
+  <button id="shuffleAgainBtn" class="btn btn-primary mt-2">Shuffle Again</button>
+  <div id="endTime" class="mt-2"></div>
+</div>
+ 
+</body>
+  <script src="index3.js"></script>
+</html>
